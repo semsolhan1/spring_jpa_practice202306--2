@@ -38,6 +38,8 @@ public class Product {
   @UpdateTimestamp
   private LocalDateTime updatedDate;
 
+
+
   public enum Category {
     FOOD, FASHION, ELECTRONIC
   }
