@@ -74,7 +74,7 @@ class EmployeeRepositoryTest {
     System.out.println("employee = " + employee);
     System.out.println("\n\n\n");
 
-    assertEquals("어피치", employee.getName());
+    assertEquals("어피치", employee.getName());//단언한다
   }
 
   @Test
