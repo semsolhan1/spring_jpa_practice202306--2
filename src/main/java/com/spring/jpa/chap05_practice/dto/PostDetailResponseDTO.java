@@ -41,8 +41,6 @@ public class PostDetailResponseDTO {
             .map(HashTag::getTagName)
             //스트림 객체를 새로운 리스트의 형태로 리턴. -> this.hashTags에게 대입
     .collect(Collectors.toList());
-
-
-
   }
+
 }
